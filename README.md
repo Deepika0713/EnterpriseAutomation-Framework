@@ -4,7 +4,7 @@ A serverless, high-throughput marketing outreach and lifecycle automation framew
 
 ## 🚀 Key Features & Architectural Highlights
 
-* **Dynamic Data Schema Pipelines:** Powered by a custom, runtime regular-expression parsing engine `(/{{\s*(.+?)\s*}}/g)` that dynamically extracts user-segmentation parameters, maps payload metadata, and auto-generates structural database columns on the fly.
+* **Dynamic Data Schema Pipelines:** Powered by a custom, runtime parsing engine that dynamically extracts user-segmentation parameters, maps payload metadata, and auto-generates structural database columns on the fly.
 * **Idempotent State-Management:** Features strict row-by-row dispatch verification loops to monitor transmission states, gracefully catch null pointer exceptions, and completely eliminate duplicate message delivery.
 * **High-Fidelity UI Engine:** Converts raw, complex dataset strings into fully responsive, semantic HTML layouts ensuring uniform UI/UX rendering across diverse email clients.
 * **Low-Latency Optimization:** Engineered to run smoothly within cloud environment resource limitations, keeping script executions optimized for large enterprise data sets.
@@ -45,9 +45,9 @@ The framework functions as a decoupled extract-transform-load (ETL) pipeline wit
 3. **Execution & Logging:** The dispatch engine pushes variables into the HTML template canvas, fires the payload, and permanently stamps an immutable success token to the source data row.
 ## β Beta-version deploys
 * **Email Automation** _basic_
-* https://docs.google.com/spreadsheets/d/1ZuXmW-eOgfh8iMQLDtXbf3I3d3Z9WDAwJZ4IMFMRSWw/edit?gid=1959928823#gid=1959928823
-* **Auto-Computing Emails*** _basic_
-* https://docs.google.com/spreadsheets/d/1Jt50RKYLX5Pf3nAWE8jG8h3z9LHFWdYWjyksgNyIWVU/edit?gid=0#gid=0
+ https://docs.google.com/spreadsheets/d/1ZuXmW-eOgfh8iMQLDtXbf3I3d3Z9WDAwJZ4IMFMRSWw/edit?gid=1959928823#gid=1959928823
+* **Auto-Computing Emails** _basic_
+ https://docs.google.com/spreadsheets/d/1Jt50RKYLX5Pf3nAWE8jG8h3z9LHFWdYWjyksgNyIWVU/edit?gid=0#gid=0
 ## 🛡️ Best Practices & Quality Control
 
 * **Zero-Dependency Architecture:** Built completely utilizing native cloud runtime capabilities to minimize third-party API vulnerabilities and dependency rot.
