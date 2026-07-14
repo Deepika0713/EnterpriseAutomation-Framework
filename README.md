@@ -43,7 +43,11 @@ The framework functions as a decoupled extract-transform-load (ETL) pipeline wit
 1. **Ingestion & Validation:** The pipeline ingests user data arrays, applying real-time validation gates to clean missing values and structural breaks.
 2. **Regex Evaluation:** The internal engine parses user-defined placeholders matching the `{{Variable}}` pattern to compute required database schema extensions.
 3. **Execution & Logging:** The dispatch engine pushes variables into the HTML template canvas, fires the payload, and permanently stamps an immutable success token to the source data row.
-
+## β Beta-version deploys
+* **Email Automation _basic_
+* https://docs.google.com/spreadsheets/d/1ZuXmW-eOgfh8iMQLDtXbf3I3d3Z9WDAwJZ4IMFMRSWw/edit?gid=1959928823#gid=1959928823
+* **Auto-Computing Emails _basic_
+* https://docs.google.com/spreadsheets/d/1Jt50RKYLX5Pf3nAWE8jG8h3z9LHFWdYWjyksgNyIWVU/edit?gid=0#gid=0
 ## 🛡️ Best Practices & Quality Control
 
 * **Zero-Dependency Architecture:** Built completely utilizing native cloud runtime capabilities to minimize third-party API vulnerabilities and dependency rot.
